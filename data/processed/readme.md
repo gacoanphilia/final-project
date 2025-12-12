@@ -1,40 +1,39 @@
-|variable          |class     |description |
-|:-----------------|:---------|:-----------|
-|year              |int64     |season year | 
-|home_team         |object    |home team |
-|away_team         |object|away team
-|winner            |object|winning team
-tie                |object|if a tie, 'losing' team as well
-|day               |object|day of week
-date               |datetime64[ns]|date
-time               |object|time of game start
-pts_win            |int64|points by winning team
-pts_loss           |int64|points by losing team
-yds_win            |int64|yards by winning team
-turnovers_win      |int64|turnovers by winning team
-yds_loss           |int64|yards by losing team
-turnovers_loss     |int64|turnovers by losing team
-home_team_name     |object|home team name
-home_team_city     |object|home team city
-away_team_name     |object|away team name
-away_team_city     |object|away team city
-kickoff_time       |datetime64[ns]|kickoff time, merging date with time|
-week_num           |int64|week enumeration
-total              |int64|total attendance
-home               |int64|home attendance
-away               |int64|away attendance
-attendance         |int64|weekly attendance
-wins               |int64|wins 0-16
-loss               |int64|losses 0-16
-points_for         |int64|points offensive
-points_against     |int64|points defensive
-points_differential|int64|points_for-points_against
-margin_of_victory  |float64|(scored-allowed)/games played
-strength_of_schedule|float64|avg opponent quality measured using SRS
-simple_rating      |float64|
-offensive_ranking  |float64
-defensive_ranking  |float64
-playoffs           |object
-sb_winner          |object
-home_score_diff    |int64
-team_tier          |category
+| Variable | Class | Description |
+| :--- | :--- | :--- |
+| **year** | `int64` | Tahun musim kompetisi (Season Year) |
+| **home_team** | `object` | Nama lengkap tim tuan rumah |
+| **away_team** | `object` | Nama lengkap tim tamu |
+| **winner** | `object` | Pemenang pertandingan |
+| **tie** | `object` | Indikator hasil seri (jika seri, berisi nama tim yang dianggap 'losing') |
+| **day** | `object` | Hari pertandingan (e.g., Sun, Mon, Thu) |
+| **date** | `datetime64[ns]` | Tanggal pertandingan |
+| **time** | `object` | Jam mulai pertandingan (lokal) |
+| **pts_win** | `int64` | Poin yang dicetak oleh tim pemenang |
+| **pts_loss** | `int64` | Poin yang dicetak oleh tim yang kalah |
+| **yds_win** | `int64` | Total yards yang diraih tim pemenang |
+| **turnovers_win** | `int64` | Jumlah turnover (kesalahan) tim pemenang |
+| **yds_loss** | `int64` | Total yards yang diraih tim yang kalah |
+| **turnovers_loss** | `int64` | Jumlah turnover (kesalahan) tim yang kalah |
+| **home_team_name** | `object` | Nama julukan tim tuan rumah (e.g., Cowboys) |
+| **home_team_city** | `object` | Kota asal tim tuan rumah |
+| **away_team_name** | `object` | Nama julukan tim tamu |
+| **away_team_city** | `object` | Kota asal tim tamu |
+| **kickoff_time** | `datetime64[ns]` | Waktu kickoff lengkap (gabungan date & time) |
+| **week_num** | `int64` | Nomor minggu pertandingan (1-17) |
+| **total** | `int64` | Total kehadiran penonton akumulatif satu musim |
+| **home** | `int64` | Total kehadiran penonton di kandang satu musim |
+| **away** | `int64` | Total kehadiran penonton tandang satu musim |
+| **attendance** | `int64` | **Jumlah penonton pada pertandingan tersebut (Weekly)** |
+| **wins** | `int64` | Total kemenangan tim tuan rumah musim itu |
+| **loss** | `int64` | Total kekalahan tim tuan rumah musim itu |
+| **points_for** | `int64` | Total poin dicetak (Offense) tim tuan rumah per musim |
+| **points_against** | `int64` | Total kebobolan (Defense) tim tuan rumah per musim |
+| **points_differential**| `int64` | Selisih poin (`points_for` - `points_against`) |
+| **margin_of_victory** | `float64` | Rata-rata margin kemenangan (SRS metric) |
+| **strength_of_schedule**| `float64` | Tingkat kesulitan jadwal lawan (SRS metric) |
+| **simple_rating** | `float64` | **Simple Rating System (SRS)**: Rating kualitas tim keseluruhan |
+| **offensive_ranking** | `float64` | **Offensive SRS**: Rating kekuatan serangan tim |
+| **defensive_ranking** | `float64` | **Defensive SRS**: Rating kekuatan pertahanan tim |
+| **playoffs** | `object` | Status playoff tim tuan rumah (Playoffs/No Playoffs) |
+| **sb_winner** | `object` | Status juara Superbowl (Won Superbowl/No Superbowl) |
+| **home_score_diff** | `int64` | Margin skor tuan rumah pada game tersebut (+ Menang, - Kalah) |
