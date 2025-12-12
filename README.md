@@ -54,6 +54,7 @@ jupyter notebook final-project.ipynb
 ```
 
 ## Struktur Direktori
+```
 final-project/  
 │  
 ├── data/  
@@ -71,6 +72,7 @@ final-project/
 |   └── final-project.ipynb  # Notebook analisis utama  
 |  
 ├── requirements.txt     # Daftar package Python yang digunakan  
-└── README.md            # File yang menjelaskan final project  
+└── README.md            # File yang menjelaskan final project
+```
   
 *Laporan ini disusun sebagai pemenuhan penugasan mata kuliah Teknik Sampling dan Data Wrangling (A).*
