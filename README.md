@@ -40,7 +40,7 @@ Hasil analisis data kami menggagalkan kebenaran suatu dugaan bahwa "banyaknya pe
 ## Cara Menjalankan/*Run* *Project*
 1. **Clone repository ini:**
 ```bash
-   git clone https://github.com/gacoanphilia/final-project.git
+git clone https://github.com/gacoanphilia/final-project.git
 ```
 2. **Install dependencies**
 Pastikan **Python** sudah terinstall! Kemudian jalankan kode di bawah ini:
