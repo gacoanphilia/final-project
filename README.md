@@ -37,7 +37,7 @@ Hasil analisis data kami menggagalkan kebenaran suatu dugaan bahwa "banyaknya pe
 - **Matplotlib & Seaborn** (untuk visualisasi data), dan
 - **Jupyter Notebook** (*package* untuk analisis data).
 
-## Cara Menjalankan/*Run* *Project* Kami
+## Cara Menjalankan/*Run* *Project*
 1. **Clone repository ini:**
 ```bash
    git clone [https://github.com/](https://github.com/)[username-anda]/nfl-analysis-group5.git
