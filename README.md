@@ -54,23 +54,23 @@ jupyter notebook final-project.ipynb
 ```
 
 ## Struktur Direktori
-final-project/
-│
-├── data/
-|   ├── raw/                     # Dataset mentah
-|   |   ├── attendance.csv       # Data mentah kehadiran
-|   |   ├── games.csv            # Data mentah pertandingan
-|   |   ├── readme.md            # Deskripsi 3 data mentah
-|   |   └── standings.csv        # Data mentah klasemen
-|   |
-|   └── processed/               # Dataset setelah dibersihkan
-|       ├── nfl.csv              # Data hasil cleaning & merging
-|       └── readme.md            # Deskripsi data processed
-|
-├── notebooks/
-|   └── final-project.ipynb  # Notebook analisis utama
-|
-├── requirements.txt     # Daftar package Python yang digunakan
-└── README.md            # File yang menjelaskan final project
-
--# Laporan ini disusun sebagai pemenuhan penugasan mata kuliah Teknik Sampling dan Data Wrangling (A).
+final-project/  
+│  
+├── data/  
+|   ├── raw/                     # Dataset mentah  
+|   |   ├── attendance.csv       # Data mentah kehadiran  
+|   |   ├── games.csv            # Data mentah pertandingan  
+|   |   ├── readme.md            # Deskripsi 3 data mentah  
+|   |   └── standings.csv        # Data mentah klasemen  
+|   |  
+|   └── processed/               # Dataset setelah dibersihkan  
+|       ├── nfl.csv              # Data hasil cleaning & merging  
+|       └── readme.md            # Deskripsi data processed  
+|  
+├── notebooks/  
+|   └── final-project.ipynb  # Notebook analisis utama  
+|  
+├── requirements.txt     # Daftar package Python yang digunakan  
+└── README.md            # File yang menjelaskan final project  
+  
+*Laporan ini disusun sebagai pemenuhan penugasan mata kuliah Teknik Sampling dan Data Wrangling (A).*
