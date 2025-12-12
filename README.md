@@ -42,12 +42,12 @@ Hasil analisis data kami menggagalkan kebenaran suatu dugaan bahwa "banyaknya pe
 ```bash
 git clone https://github.com/gacoanphilia/final-project.git
 ```
-2. **Install dependencies**
+2. **Install dependencies**  
 Pastikan **Python** sudah terinstall! Kemudian jalankan kode di bawah ini:
 ```bash
 pip install -r requirements.txt
 ```
-3. **Buka Notebook**
+3. **Buka Notebook**  
 Jalankan/*run* file `.ipynb` untuk melihat proses analisis:
 ```bash
 jupyter notebook final-project.ipynb
