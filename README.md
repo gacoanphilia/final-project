@@ -32,8 +32,45 @@ Visualisasi *Strategic Map* kami menunjukkan bahwa Juara Superbowl hampir selalu
 Hasil analisis data kami menggagalkan kebenaran suatu dugaan bahwa "banyaknya penonton pasti menjamin kemenangan tuan rumah". Padahal, grafik menunjukkan korelasi datar/lemah antara *Crowd Size* dan *Margin of Victory*. Sebaliknya, faktor cuaca/bulan (fenomena 'The Winter Freeze') memiliki dampak! Yaitu skor menurun drastis di bulan Desember-Januari.
 
 ### Library dan Bahasa:
-*Final Project* ini dikerjakan menggunakan **Python****dengan library & package berikut:
+*Final Project* ini dikerjakan menggunakan **Python** dengan library & package berikut:
 - **Pandas** (untuk manipulasi & penggabungan data),
 - **Matplotlib & Seaborn** (untuk visualisasi data), dan
 - **Jupyter Notebook** (*package* untuk analisis data).
 
+## Cara Menjalankan/*Run* *Project* Kami
+1. **Clone repository ini:**
+```bash
+   git clone [https://github.com/](https://github.com/)[username-anda]/nfl-analysis-group5.git
+```
+2. **Install dependencies**
+Pastikan **Python** sudah terinstall! Kemudian jalankan kode di bawah ini:
+```bash
+pip install -r requirements.txt
+```
+3. **Buka Notebook**
+Jalankan/*run* file `.ipynb` untuk melihat proses analisis:
+```bash
+jupyter notebook final-project.ipynb
+```
+
+## Struktur Direktori
+final-project/
+│
+├── data/
+|   ├── raw/                     # Dataset mentah
+|   |   ├── attendance.csv       # Data mentah kehadiran
+|   |   ├── games.csv            # Data mentah pertandingan
+|   |   ├── readme.md            # Deskripsi 3 data mentah
+|   |   └── standings.csv        # Data mentah klasemen
+|   |
+|   └── processed/               # Dataset setelah dibersihkan
+|       ├── nfl.csv              # Data hasil cleaning & merging
+|       └── readme.md            # Deskripsi data processed
+|
+├── notebooks/
+|   └── final-project.ipynb  # Notebook analisis utama
+|
+├── requirements.txt     # Daftar package Python yang digunakan
+└── README.md            # File yang menjelaskan final project
+
+-# Laporan ini disusun sebagai pemenuhan penugasan mata kuliah Teknik Sampling dan Data Wrangling (A).
